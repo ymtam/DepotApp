@@ -2,6 +2,10 @@ from kivy.app import App
 from kivy.uix.gridlayout import GridLayout
 from kivy.uix.label import Label
 from kivy.uix.textinput import TextInput
+from kivy.uix.widget import Widget
+
+class MainWidget(Widget):
+    pass
 
 class LoginScreen(GridLayout):
     def __init__(self, **kwargs):
